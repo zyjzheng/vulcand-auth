@@ -82,7 +82,5 @@ func CliFlags() []cli.Flag {
 	return []cli.Flag{
                 cli.StringFlag{Name: "user", Value:"", Usage: "user name for basic auth"},
                 cli.StringFlag{Name: "pass", Value:"", Usage: "user password for basic auth"},
-		#cli.StringFlag{"user, u", "", "Basic auth username"},
-		#cli.StringFlag{"pass, p", "", "Basic auth pass"},
 	}
 }
